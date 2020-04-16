@@ -1,0 +1,109 @@
+body {
+  background-color: lightgray;
+}
+.center {
+  text-align: center;
+}
+.notborder {
+  border: 0;
+}
+
+header {
+  position: fixed;
+  width: calc(100% - 16px);
+  top: 0px;
+  height: 75px;
+  background-color: gray;
+  z-index: 100;
+}
+.titol {
+  font-size: 150%;
+  color: rgb(255, 255, 255, 1);
+}
+.page {
+  width: 400px;
+  margin-left: auto;
+  position: relative;
+
+  right: 10px;
+  bottom: 5px;
+}
+header button {
+  background-color: gray;
+}
+button a {
+  font-size: 115%;
+  color: rgb(255, 255, 255, 1);
+}
+
+body > div {
+  position: relative;
+  margin-top: 75px;
+}
+h1 {
+  background-color: gray;
+  color: rgb(255, 255, 255, 1);
+  text-align: center;
+  position: relative;
+}
+
+main {
+  position: relative;
+  top: -25px;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  width: 95%;
+}
+.block {
+  display: block;
+  background-color: white;
+  padding: 10px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 50px soli black;
+}
+h2 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 200%;
+  line-height: 0.3;
+}
+div.line {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 5px solid gray;
+}
+div.empty {
+  height: 50px;
+}
+main a {
+  color: black;
+}
+main button{
+  background-color: green;
+  height:40px;
+}
+button.big{
+  display: block;
+  width: 83%;
+  margin-left: auto;
+  margin-right: auto;
+}
+button.small2{
+  min-width: 400px;
+  width: 44%;
+  margin: 10px 2.5% 10px 2.5%;
+}
+button.small3{
+  min-width: 300px;
+  width:27%;
+  margin: 10px 2.5% 10px 2.5%;
+}
+div.button{
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
